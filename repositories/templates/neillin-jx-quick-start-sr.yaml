@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: neillin
+    provider: github
+    repository: jx-quick-start
+  name: neillin-jx-quick-start
+spec:
+  description: Imported application for neillin/jx-quick-start
+  httpCloneURL: https://github.com/neillin/jx-quick-start.git
+  org: neillin
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-quick-start
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/neillin/jx-quick-start.git

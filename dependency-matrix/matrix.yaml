@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: neillin
+  repo: jx-quick-start
+  url: https://github.com/neillin/jx-quick-start.git
+  version: ""
+  versionURL: ""
