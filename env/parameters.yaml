@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:ethwtdev1/adminUser:password
+  username: neillin
+enableDocker: false
+pipelineUser:
+  email: neillin@ethoughtware.com
+  token: vault:ethwtdev1/pipelineUser:token
+  username: neillin
+prow:
+  hmacToken: vault:ethwtdev1/prow:hmacToken
